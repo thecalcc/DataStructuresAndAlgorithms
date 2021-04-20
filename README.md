@@ -1,4 +1,3 @@
 # DataStructuresAndAlgorithms
 
-* Learning the different data structures and algorithms *
-
+* Learning the different data structures and algorithms
