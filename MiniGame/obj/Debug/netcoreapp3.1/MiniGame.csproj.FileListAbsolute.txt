@@ -1,0 +1,13 @@
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\bin\Debug\netcoreapp3.1\MiniGame.exe
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\bin\Debug\netcoreapp3.1\MiniGame.deps.json
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\bin\Debug\netcoreapp3.1\MiniGame.runtimeconfig.json
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\bin\Debug\netcoreapp3.1\MiniGame.runtimeconfig.dev.json
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\bin\Debug\netcoreapp3.1\MiniGame.dll
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\bin\Debug\netcoreapp3.1\MiniGame.pdb
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\obj\Debug\netcoreapp3.1\MiniGame.csprojAssemblyReference.cache
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\obj\Debug\netcoreapp3.1\MiniGame.AssemblyInfoInputs.cache
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\obj\Debug\netcoreapp3.1\MiniGame.AssemblyInfo.cs
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\obj\Debug\netcoreapp3.1\MiniGame.csproj.CoreCompileInputs.cache
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\obj\Debug\netcoreapp3.1\MiniGame.dll
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\obj\Debug\netcoreapp3.1\MiniGame.pdb
+C:\Users\Kosyo.DESKTOP-JRQ1UFA\source\repos\PracticingDifferentFeatures\MiniGame\obj\Debug\netcoreapp3.1\MiniGame.genruntimeconfig.cache
