@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\InsertionSort\\InsertionSort.csproj": {}
+    "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\DataStructuresAndAlgorithms\\InsertionSort\\InsertionSort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\InsertionSort\\InsertionSort.csproj": {
+    "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\DataStructuresAndAlgorithms\\InsertionSort\\InsertionSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\InsertionSort\\InsertionSort.csproj",
+        "projectUniqueName": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\DataStructuresAndAlgorithms\\InsertionSort\\InsertionSort.csproj",
         "projectName": "InsertionSort",
-        "projectPath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\InsertionSort\\InsertionSort.csproj",
+        "projectPath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\DataStructuresAndAlgorithms\\InsertionSort\\InsertionSort.csproj",
         "packagesPath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\InsertionSort\\obj\\",
+        "outputPath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\DataStructuresAndAlgorithms\\InsertionSort\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\SimpleLists\\SimpleLists.csproj": {}
+    "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\DataStructuresAndAlgorithms\\SimpleLists\\SimpleLists.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\SimpleLists\\SimpleLists.csproj": {
+    "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\DataStructuresAndAlgorithms\\SimpleLists\\SimpleLists.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\SimpleLists\\SimpleLists.csproj",
+        "projectUniqueName": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\DataStructuresAndAlgorithms\\SimpleLists\\SimpleLists.csproj",
         "projectName": "SimpleLists",
-        "projectPath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\SimpleLists\\SimpleLists.csproj",
+        "projectPath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\DataStructuresAndAlgorithms\\SimpleLists\\SimpleLists.csproj",
         "packagesPath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\SimpleLists\\obj\\",
+        "outputPath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\DataStructuresAndAlgorithms\\SimpleLists\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

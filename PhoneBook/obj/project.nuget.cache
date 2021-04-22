@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QsLRF5A5anOS/439BytRV2EvFr20USV9XfPj8ybI8k0cHrQPosLKrW6DOn6eQpeDelUeMaD4XfEyDek0yg7tAA==",
+  "dgSpecHash": "FK2kUDiMZF3MuZ/0LOs9UplT6dSpJB31L0sVk90RdIz4MkQCFpSEK2h22fkeHTz6ZRAi5HWUHd4EUUKZL9sLdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\PhoneBook\\HashSetAndDictionary.csproj",
+  "projectFilePath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\DataStructuresAndAlgorithms\\PhoneBook\\HashSetAndDictionary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
