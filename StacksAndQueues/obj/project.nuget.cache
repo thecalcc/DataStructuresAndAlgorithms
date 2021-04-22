@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e8oYzY4NR8XWODmWPrAeBwP07V0U5UureQW0howgWAeDCXmZjJ6Um/Yi9TT8ZsbbYBuT9pzc1Xt2N+RdNPJOKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\StacksAndQueues\\StacksAndQueues.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}

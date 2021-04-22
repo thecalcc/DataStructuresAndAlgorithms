@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "I3d33k66p+biptWJGD5mkrW0BNGhzYi8Rs9bZTiswUQoLBuj0uy/ZeUnUuhW5+GkxEQW7qINpvr/LK6ZbYeLlA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\source\\repos\\PracticingDifferentFeatures\\CallCenterWithPrioritySupport\\CallCenterWithPrioritySupport.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kosyo.DESKTOP-JRQ1UFA\\.nuget\\packages\\optimizedpriorityqueue\\5.1.0\\optimizedpriorityqueue.5.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

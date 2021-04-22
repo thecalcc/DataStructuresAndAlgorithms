@@ -6,9 +6,9 @@ namespace SimpleLists
 {
     public class CircularLinkedList<T> : LinkedList<T>
     {
-        public new IEnumerator GetEnumerator()
+        public new IEnumerator<T> GetEnumerator()
         {
-
+            return new CircularLinkedListEnumerator<T>(this);
         }
     }
 }
