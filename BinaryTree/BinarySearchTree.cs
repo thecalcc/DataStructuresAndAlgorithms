@@ -85,7 +85,7 @@ namespace BinaryTree
 
         public void Remove(T data)
         {
-
+            Remove(Root, data);
         }
 
         private void Remove(BinaryTreeNode<T> node, T data)

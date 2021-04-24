@@ -68,7 +68,7 @@ namespace BinaryTree
             
             foreach (BinaryTreeNode<T> node in Traverse(TraversalEnum.PREORDER))
             {
-                height = Math.Max(height, node.GetHeight());
+                height = Math.Max(height, node.newGetHeight());
             }
 
             return height;

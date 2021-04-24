@@ -5,10 +5,10 @@ using Trees;
 
 namespace BinaryTree
 {
-    public class BinaryTreeNode<T> : TreeNode<T>
+    public class BinaryTreeNode<T> : Trees.TreeNode<T>
     {
         public BinaryTreeNode() => Children =
-            new List<TreeNode<T>>() { null, null };
+            new List<Trees.TreeNode<T>>() { null, null };
 
         public BinaryTreeNode<T> Parent { get; set; }
 
@@ -24,7 +24,7 @@ namespace BinaryTree
             set { Children[1] = value; }
         }
 
-        public int GetHeight()
+        public int newGetHeight()
         {
             int height = 1;
             BinaryTreeNode<T> current = this;

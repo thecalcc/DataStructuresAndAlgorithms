@@ -40,7 +40,7 @@ namespace Trees
                     Data = new Person(30, "Anthony Hopkis", "Sales Specialist"),
                     Parent = company.Root.Children[2]
                 }
-            }
+            };
         }
 
         static void BasicTreeExample()
