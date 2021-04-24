@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSetAndDictionary", "Pho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSetSPAExample", "HashSetSPAExample\HashSetSPAExample.csproj", "{1A3F46AE-3640-46C7-807E-CDFE08888160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj", "{D470DE02-0616-4F3B-BED1-E3392839D087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trees", "Trees\Trees.csproj", "{D470DE02-0616-4F3B-BED1-E3392839D087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{5CC1B66A-C329-4DCD-9783-54A8F7247519}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{5CC1B66A-C329-4DCD-9783-54A8F7247519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{AE891AD2-378D-43A0-A8F3-CDBD7AFB648F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{5CC1B66A-C329-4DCD-9783-54A8F7247519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC1B66A-C329-4DCD-9783-54A8F7247519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC1B66A-C329-4DCD-9783-54A8F7247519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE891AD2-378D-43A0-A8F3-CDBD7AFB648F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE891AD2-378D-43A0-A8F3-CDBD7AFB648F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE891AD2-378D-43A0-A8F3-CDBD7AFB648F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE891AD2-378D-43A0-A8F3-CDBD7AFB648F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
