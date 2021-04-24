@@ -103,7 +103,7 @@ namespace Graph
                     {
                         From = from,
                         To = from.Neighbours[i],
-                        Weight = i < from.Weights.Count ? from.Weights[i] :
+                        Weight = i < from.Weights.Count ? from.Weights[i] : 1
                     };
 
                     edges.Add(edge);
