@@ -29,7 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trees", "Trees\Trees.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{5CC1B66A-C329-4DCD-9783-54A8F7247519}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{AE891AD2-378D-43A0-A8F3-CDBD7AFB648F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph", "Graph\Graph.csproj", "{AE891AD2-378D-43A0-A8F3-CDBD7AFB648F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessingAround", "MessingAround\MessingAround.csproj", "{541F3FB1-7BAD-4DCD-940A-93734C1C52E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practice.csproj", "{C564D606-B3FD-4209-A3E2-63D8E23D7FF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{AE891AD2-378D-43A0-A8F3-CDBD7AFB648F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE891AD2-378D-43A0-A8F3-CDBD7AFB648F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE891AD2-378D-43A0-A8F3-CDBD7AFB648F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541F3FB1-7BAD-4DCD-940A-93734C1C52E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541F3FB1-7BAD-4DCD-940A-93734C1C52E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541F3FB1-7BAD-4DCD-940A-93734C1C52E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541F3FB1-7BAD-4DCD-940A-93734C1C52E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C564D606-B3FD-4209-A3E2-63D8E23D7FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C564D606-B3FD-4209-A3E2-63D8E23D7FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C564D606-B3FD-4209-A3E2-63D8E23D7FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C564D606-B3FD-4209-A3E2-63D8E23D7FF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
