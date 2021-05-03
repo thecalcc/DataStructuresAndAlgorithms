@@ -6,29 +6,45 @@ namespace BubbleSort
 {
     public static class BubbleSort
     {
-        public static void Sort<T>(T[] array) where T : IComparable
+        public static void Sort<T>(T[] ts) where T : IComparable
+        {
+            for (int i = 0; i < ts.Length; i++)
+            {
+                for (int j = 0; j < ts.Length; j++)
+                {
+                    if (ts[j].CompareTo(ts[j + 1]) > 0)
+                    {
+                        T temp = ts[i];
+                        ts[i] = ts[j];
+                        ts[j] = temp;
+                    }
+                }
+            }
+        }
+
+        public static T[] BubbleOptimised<T>(T[] array) where T : IComparable
         {
             for (int i = 0; i < array.Length; i++)
             {
-                bool changed = false;
+                bool isAnyChange = false;
 
-                for (int j = 0; j < array.Length; j++)
+                for (int j = 0; j < array.Length - 1; j++)
                 {
-                    if (array[j].CompareTo(array[i]) > 0)
+                    if (array[j].CompareTo(array[j + 1]) > 0)
                     {
-                        changed = true;
-
+                        isAnyChange = true;
                         T temp = array[i];
                         array[i] = array[j];
                         array[j] = temp;
                     }
                 }
 
-                if (!changed)
+                if (!isAnyChange)
                 {
                     break;
                 }
             }
+            return array;
         }
     }
 }

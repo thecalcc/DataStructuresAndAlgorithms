@@ -9,8 +9,7 @@ namespace BinaryTree
         public BinaryTreeNode<T> Root { get; set; }
         public int Count { get; set; }
 
-        private void TraversePreOrder(BinaryTreeNode<T> node, 
-            List<BinaryTreeNode<T>> result)
+        private void TraversePreOrder(BinaryTreeNode<T> node, List<BinaryTreeNode<T>> result)
         {
             if (node != null)
             {
@@ -20,8 +19,7 @@ namespace BinaryTree
             }
         }
 
-        private void TraverseInOrder(BinaryTreeNode<T> node,
-            List<BinaryTreeNode<T>> result)
+        private void TraverseInOrder(BinaryTreeNode<T> node, List<BinaryTreeNode<T>> result)
         {
             if (node != null)
             {
@@ -48,14 +46,11 @@ namespace BinaryTree
 
             switch (mode)
             {
-                case TraversalEnum.PREORDER:
-                    TraversePreOrder(Root, nodes);
+                case TraversalEnum.PREORDER: TraversePreOrder(Root, nodes);
                     break;
-                case TraversalEnum.INORDER:
-                    TraverseInOrder(Root, nodes);
+                case TraversalEnum.INORDER: TraverseInOrder(Root, nodes);
                     break;
-                case TraversalEnum.POSTORDER:
-                    TraversePostOrder(Root, nodes);
+                case TraversalEnum.POSTORDER: TraversePostOrder(Root, nodes);
                     break;
             }
 
@@ -65,10 +60,10 @@ namespace BinaryTree
         public int GetHeight()
         {
             int height = 0;
-            
+
             foreach (BinaryTreeNode<T> node in Traverse(TraversalEnum.PREORDER))
             {
-                height = Math.Max(height, node.newGetHeight());
+                height = Math.Max(height, node.GetHeight());
             }
 
             return height;

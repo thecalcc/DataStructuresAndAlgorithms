@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Practice
 {
@@ -47,6 +48,46 @@ namespace Practice
             result = Convert.ToString(num) + result;
 
             Console.WriteLine("{0}", result);
+
+
+
+
         }
+        // How a foreach loop works
+
+        static IEnumerable<int> SimpleIterator()
+        {
+            yield return 10;
+            for (int i = 0; i < 3; i++)
+            {
+                yield return i;
+            }
+
+            yield return 20;
+        }
+
+
+        static void ForeacLoop()
+        {
+            IEnumerable<int> enumerable = SimpleIterator();
+            using (IEnumerator<int> enumerator = enumerable.GetEnumerator())
+            {
+                while (enumerator.MoveNext())
+                {
+                    int value = enumerator.Current;
+                    Console.WriteLine(value);
+                }
+            }
+
+        }
+    }
+
+    static class StaticClassDemo
+    {
+        public static void StaticMethod() { } // Valid - static classes can declare static methods
+        /// <summary>
+        /// public void InstanceMethod() { } // Invalid - static classes can't declare static methods
+        /// </summary>
+
     }
 }

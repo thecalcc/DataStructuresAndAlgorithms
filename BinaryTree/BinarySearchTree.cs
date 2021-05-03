@@ -9,7 +9,7 @@ namespace BinaryTree
         public bool Contains(T data)
         {
             BinaryTreeNode<T> node = Root;
-            
+
             while (node != null)
             {
                 int result = data.CompareTo(node.Data);
@@ -50,7 +50,7 @@ namespace BinaryTree
             }
             else
             {
-                parent.Right = node;
+                parent.Right = null;
             }
 
             Count++;
@@ -107,7 +107,6 @@ namespace BinaryTree
                 if (node.Left == null && node.Right == null)
                 {
                     ReplaceInParent(node, null);
-                    Count--;
                 }
                 else if (node.Right == null)
                 {
@@ -121,8 +120,7 @@ namespace BinaryTree
                 }
                 else
                 {
-                    BinaryTreeNode<T> successor =
-                        FindMinimumInSubTree(node.Right);
+                    BinaryTreeNode<T> successor = FindMinimumInSubTree(node.Right);
                     node.Data = successor.Data;
                     Remove(successor, successor.Data);
                 }
@@ -133,7 +131,7 @@ namespace BinaryTree
         {
             if (node.Parent != null)
             {
-                if(node.Parent.Left == node)
+                if (node.Parent.Left == node)
                 {
                     node.Parent.Left = newNode;
                 }

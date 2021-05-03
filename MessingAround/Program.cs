@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MessingAround
 {
@@ -32,19 +33,19 @@ namespace MessingAround
         }
     }
 
-    public interface IDict<TKey, TValue>
+    public interface IDict<TKey, TValue> 
     {
         public TKey Get(TKey param);
         public void Add(TKey key, TValue value);
     }
 
     public class MyDict<GKey, GValue> : IDict<GKey, GValue>, IEnumerable
-    { 
-        public MyDict<GKey, GValue> Dictionary { get; set; }
+    {
+        private MyDict<GKey, GValue> dictionary = new MyDict<GKey, GValue>();
+        public MyDict<GKey,GValue> Dictionary { get; set; }
 
         public MyDict()
         {
-            Dictionary = new MyDict<GKey, GValue>();
         }
 
         public GKey Get(GKey key)
@@ -60,6 +61,27 @@ namespace MessingAround
         public IEnumerator GetEnumerator()
         {
             return Dictionary.GetEnumerator();
+        }
+    }
+
+    public class IIndexer<T>
+    {
+        private T[] array = new T[100];
+
+        public T this[int i]
+        {
+            get { return array[i]; }
+            set { array[i] = value; }
+        }
+
+        public T GetT(int i)
+        {
+            return array[i];
+        }
+
+        public void SetT(T value)
+        {
+            array.SetValue(value, Convert.ToInt32(array.Last()) + 1);
         }
     }
 }
