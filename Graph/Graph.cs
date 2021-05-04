@@ -22,7 +22,6 @@ namespace Graph
             {
                 Node<T> nodeFrom = Nodes[from];
                 Node<T> nodeTo = Nodes[to];
-
                 int i = nodeFrom.Neighbours.IndexOf(nodeTo);
 
                 if (i >= 0)
@@ -33,6 +32,7 @@ namespace Graph
                         To = nodeTo,
                         Weight = i < nodeFrom.Weights.Count ? nodeFrom.Weights[i] : 0
                     };
+
                     return edge;
                 }
 
@@ -61,6 +61,7 @@ namespace Graph
         public void AddEdge(Node<T> from, Node<T> to, int weight = 0)
         {
             from.Neighbours.Add(to);
+
             if (_isWeighted)
             {
                 from.Weights.Add(weight);
@@ -69,25 +70,20 @@ namespace Graph
             if (!_isDirected)
             {
                 to.Neighbours.Add(from);
-
-                if (!_isDirected)
+                if (_isWeighted)
                 {
-                    to.Neighbours.Add(from);
-
-                    if (_isWeighted)
-                    {
-                        to.Weights.Add(weight);
-                    }
+                    to.Weights.Add(weight);
                 }
             }
         }
 
         public void RemoveEdge(Node<T> from, Node<T> to)
         {
-            int index = from.Neighbours.FindIndex(x => x == to);
+            int index = from.Neighbours.FindIndex(n => n == to);
+
             if (index >= 0)
             {
-                from.Neighbours.RemoveAt(index);
+                from.Weights.RemoveAt(index);
             }
         }
 
@@ -95,27 +91,27 @@ namespace Graph
         {
             List<Edge<T>> edges = new List<Edge<T>>();
 
-            foreach (Node<T> from in Nodes)
+            foreach (Node<T> node in Nodes)
             {
-                for (int i = 0; i < from.Neighbours.Count; i++)
+                for (int i = 0; i < node.Neighbours.Count; i++)
                 {
                     Edge<T> edge = new Edge<T>()
                     {
-                        From = from,
-                        To = from.Neighbours[i],
-                        Weight = i < from.Weights.Count ? from.Weights[i] : 1
+                        From = node,
+                        To = node.Neighbours[i],
+                        Weight = i < node.Weights.Count ? node.Weights[i] : 0
                     };
-
                     edges.Add(edge);
                 }
             }
+
             return edges;
         }
 
         private void UpdateIndices()
         {
             int i = 0;
-            Nodes.ForEach(x => x.Index = i++);
+            Nodes.ForEach(n => n.Index = i++);
         }
 
         public List<Node<T>> DFS()
@@ -222,7 +218,7 @@ namespace Graph
             {
                 subsets[b.Index].Parent = a;
             }
-            else if(subsets[a.Index].Rank < subsets[b.Index].Rank)
+            else if (subsets[a.Index].Rank < subsets[b.Index].Rank)
             {
                 subsets[a.Index].Parent = b;
             }

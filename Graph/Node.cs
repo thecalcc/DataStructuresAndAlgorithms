@@ -13,7 +13,7 @@ namespace Graph
 
         public override string ToString()
         {
-            return $"Node with index {Index}: {Data}, neighbours { Neighbours.Count} ";
+            return $"Node with index {Index}: {Data}, neighbours: {Neighbours.Count}";
         }
     }
 }
